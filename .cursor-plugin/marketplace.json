@@ -1,0 +1,34 @@
+{
+    "name": "cursor-loyalguru-plugins",
+    "owner": {
+      "name": "Loyal Guru",
+      "email": "platform@loyal.guru"
+    },
+    "metadata": {
+      "description": "A set of plugins for Loyal Guru.",
+      "version": "0.1.0",
+      "pluginRoot": "plugins"
+    },
+    "plugins": [
+      {
+        "name": "git-workflows",
+        "source": "git-workflows",
+        "description": "Git workflows for commit, PR, CI, merge conflicts, and branch validation"
+      },
+      {
+        "name": "pm",
+        "source": "pm",
+        "description": "PM workflows with MCP integrations, ticket writing, and board summarization"
+      },
+      {
+        "name": "testing-reliability",
+        "source": "testing-reliability",
+        "description": "Testing and reliability workflows for Datadog, performance, and test automation"
+      },
+      {
+        "name": "planning",
+        "source": "planning",
+        "description": "Strategic planning workflows including devil's advocate analysis for decision making"
+      }
+    ]
+  }
