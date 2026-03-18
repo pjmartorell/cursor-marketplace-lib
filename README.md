@@ -1,16 +1,23 @@
-# Cursor Trial Plugins
+# Loyal Guru - Cursor Plugins
 
-An example Team Marketplace that includes a set of starter plugins for Cursor.
+Team Marketplace for Loyal Guru's Cursor plugins. Provides shared skills, agents, and rules to streamline development workflows across the team.
 
-## Included plugins
+## Active plugins
 
-This repo currently ships five grouped plugins:
+Registered in `marketplace.json` and available to all team members:
 
-- **git-workflows**: commit, PR, CI, merge conflict, and branch validation workflows
-- **documentation**: README updates, weekly review summaries, markdown naming, and docs writing
-- **pm**: Ticket-oriented PM workflows with MCP config, ticket writing, and board summarization
-- **design**: wireframes, component design support, and mockup workflow
+- **git-workflows**: Commit, PR, CI, merge conflict, and branch validation workflows
+- **pm**: Ticket-oriented PM workflows with MCP integration, ticket writing, and board summarization
 - **testing-reliability**: Datadog dashboards, performance optimization, and testing agents
+- **planning**: Strategic planning workflows including devil's advocate analysis for decision making
+
+## Available plugins
+
+Present in the repository but not yet activated in `marketplace.json`. To enable one, add its entry to `.cursor-plugin/marketplace.json`:
+
+- **documentation**: README updates, weekly review summaries, markdown naming, and docs writing
+- **design**: Wireframes, component design support, and mockup workflows
+- **featureflag-migration**: Migrate legacy feature flag systems to OpenFeature with inventory, migration, verification, cleanup, and scaffolding agents
 
 ## Repository structure
 
