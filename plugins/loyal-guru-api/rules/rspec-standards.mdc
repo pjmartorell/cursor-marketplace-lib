@@ -1,0 +1,12 @@
+---
+description: "Enforces best practices for RSpec tests"
+globs:
+  - "spec/**/*"
+alwaysApply: true
+---
+
+## RSpec Best Practices
+
+- Always use **FactoryBot** to create test data whenever possible.  
+- Use the `response_json` helper to parse JSON responses.  
+- Ensure tests pass **without any RuboCop warnings or offenses**.

@@ -1,0 +1,11 @@
+---
+description: "Ensures Grape API endpoints follow project conventions"
+globs:
+  - "app/api/**/*"
+alwaysApply: true
+---
+
+## Grape API Endpoint Rules
+
+- All endpoints must return responses **wrapped in a Representer**.  
+- Every endpoint must have an associated **Pundit policy** for authorization.
