@@ -1,0 +1,12 @@
+{
+  "name": "app-owner",
+  "displayName": "App Owner",
+  "version": "0.1.0",
+  "description": "Skills for the Loyal Guru Angular owner portal: i18n, config-driven forms, and documentation patterns.",
+  "author": {
+    "name": "Pere Martorell",
+    "email": "pmartorell@loyal.guru"
+  },
+  "license": "MIT",
+  "keywords": ["cursor", "plugin", "angular", "frontend", "i18n", "loyal-guru"]
+}

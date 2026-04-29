@@ -1,0 +1,12 @@
+{
+  "name": "streaming-api",
+  "displayName": "Streaming API",
+  "version": "0.1.0",
+  "description": "Skills for the Loyal Guru Go Streaming API: loyalty engine, architecture, feature flags, testing, and Kallax removal.",
+  "author": {
+    "name": "Pere Martorell",
+    "email": "pmartorell@loyal.guru"
+  },
+  "license": "MIT",
+  "keywords": ["cursor", "plugin", "go", "golang", "streaming", "loyalty-engine", "loyal-guru"]
+}

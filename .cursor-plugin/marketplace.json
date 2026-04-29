@@ -29,6 +29,31 @@
         "name": "planning",
         "source": "planning",
         "description": "Strategic planning workflows including devil's advocate analysis for decision making"
+      },
+      {
+        "name": "loyal-guru-api",
+        "source": "loyal-guru-api",
+        "description": "Skills for the Loyal Guru Rails API: permissions, migrations, segments, configurations, sidekiq, pumps, and more"
+      },
+      {
+        "name": "streaming-api",
+        "source": "streaming-api",
+        "description": "Skills for the Loyal Guru Go Streaming API: loyalty engine, architecture, feature flags, testing, and Kallax removal"
+      },
+      {
+        "name": "app-owner",
+        "source": "app-owner",
+        "description": "Skills for the Loyal Guru Angular owner portal: i18n, config-driven forms, and documentation patterns"
+      },
+      {
+        "name": "cursor-tools",
+        "source": "cursor-tools",
+        "description": "Generic Cursor IDE workflow tools: canvas, skills, rules, hooks, subagents, split-to-prs, babysit, and more"
+      },
+      {
+        "name": "platform-ops",
+        "source": "platform-ops",
+        "description": "Operational skills: staging label assignment, streaming credentials triage, transcript analysis, and skill usage tracing"
       }
     ]
   }

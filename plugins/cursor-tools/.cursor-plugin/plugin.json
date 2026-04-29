@@ -1,0 +1,12 @@
+{
+  "name": "cursor-tools",
+  "displayName": "Cursor Tools",
+  "version": "0.1.0",
+  "description": "Generic Cursor IDE workflow tools: canvas, skills, rules, hooks, subagents, split-to-prs, babysit, and more.",
+  "author": {
+    "name": "Pere Martorell",
+    "email": "pmartorell@loyal.guru"
+  },
+  "license": "MIT",
+  "keywords": ["cursor", "plugin", "canvas", "skills", "rules", "hooks", "workflow"]
+}

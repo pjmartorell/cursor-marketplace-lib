@@ -1,0 +1,12 @@
+{
+  "name": "loyal-guru-api",
+  "displayName": "Loyal Guru API",
+  "version": "0.1.0",
+  "description": "Skills for the Loyal Guru Rails API: permissions, migrations, segments, configurations, sidekiq, pumps, and more.",
+  "author": {
+    "name": "Pere Martorell",
+    "email": "pmartorell@loyal.guru"
+  },
+  "license": "MIT",
+  "keywords": ["cursor", "plugin", "rails", "ruby", "api", "loyal-guru"]
+}

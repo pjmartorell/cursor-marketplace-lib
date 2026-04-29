@@ -1,0 +1,12 @@
+{
+  "name": "platform-ops",
+  "displayName": "Platform Ops",
+  "version": "0.1.0",
+  "description": "Operational skills for Loyal Guru: staging label assignment, streaming credentials triage, transcript analysis, and skill usage tracing.",
+  "author": {
+    "name": "Pere Martorell",
+    "email": "pmartorell@loyal.guru"
+  },
+  "license": "MIT",
+  "keywords": ["cursor", "plugin", "ops", "staging", "monitoring", "triage", "loyal-guru"]
+}
