@@ -46,11 +46,6 @@
         "description": "Skills for the Loyal Guru Angular owner portal: i18n, config-driven forms, and documentation patterns"
       },
       {
-        "name": "cursor-tools",
-        "source": "cursor-tools",
-        "description": "Generic Cursor IDE workflow tools: canvas, skills, rules, hooks, subagents, split-to-prs, babysit, and more"
-      },
-      {
         "name": "platform-ops",
         "source": "platform-ops",
         "description": "Operational skills: staging label assignment, streaming credentials triage, transcript analysis, and skill usage tracing"
