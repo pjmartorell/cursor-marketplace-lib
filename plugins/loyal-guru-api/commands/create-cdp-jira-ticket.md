@@ -110,7 +110,32 @@ For ordered lists:
 - Pere Joan Martorell: `712020:40debf5f-3891-4b09-9831-4a02f176d26b`
 - For other users, use `lookupJiraAccountId` with their name or email.
 
+## Components (`components` field)
+
+| Name | ID |
+|---|---|
+| Management API | `10407` |
+| Bigquery Push | `10408` |
+| Customers | `10560` |
+| Activity | `10406` |
+| Segments | `10573` |
+| Users & Roles | `10561` |
+| Scores | `10581` |
+| Loyalty Score Program | `10580` |
+
+Set via `additional_fields`: `"components": [{"id": "10407"}]`
+
 ## Sprint assignment
+
+### Known sprints (do NOT fetch these)
+
+| Sprint name | ID |
+|---|---|
+| CDP - Backlog Fast Tech | `3631` |
+
+Set directly: `"customfield_10010": 3631` (plain number, not an object).
+
+### Finding the active sprint
 
 When the user asks to assign to the active sprint:
 
