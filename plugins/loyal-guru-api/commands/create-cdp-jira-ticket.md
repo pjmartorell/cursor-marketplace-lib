@@ -125,6 +125,8 @@ For ordered lists:
 
 Set via `additional_fields`: `"components": [{"id": "10407"}]`
 
+> **Important:** The parameter name is `additional_fields` (snake_case), NOT `additionalFields`. Using camelCase will silently drop all custom fields.
+
 ## Sprint assignment
 
 ### Known sprints (do NOT fetch these)
