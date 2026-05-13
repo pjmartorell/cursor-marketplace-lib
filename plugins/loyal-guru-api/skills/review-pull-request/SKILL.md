@@ -161,8 +161,20 @@ After creating the pending review, tell the user:
 If the user asks to add, update, or remove comments from a pending review:
 
 - **Add:** Use `add_comment_to_pending_review` directly.
-- **Update:** Delete the pending review with `pull_request_review_write` (`method: "delete_pending"`), then recreate it with all comments (including the updated ones).
-- **Remove:** Same delete-and-recreate approach, omitting the removed comment.
+- **Update:** Use `gh api` to patch the specific comment by ID — **do NOT delete and recreate the whole review**:
+  1. Fetch current comment IDs: `pull_request_read` with `method: "get_review_comments"`.
+  2. Identify the comment to update by matching its `path` + `line` + `body` snippet.
+  3. Patch only that comment via Shell:
+     ```bash
+     gh api PATCH /repos/loyalguru/loyal-guru-api/pulls/comments/{comment_id} \
+       --field body="new comment text"
+     ```
+- **Remove:** Delete the specific comment via Shell:
+  ```bash
+  gh api DELETE /repos/loyalguru/loyal-guru-api/pulls/comments/{comment_id}
+  ```
+
+**Why not delete-and-recreate?** The `pull_request_review_write` `delete_pending` + full recreate approach wastes tokens (all unchanged comments must be re-sent) and risks losing comment history. `gh api` targets individual comments at zero cost to the others.
 
 ## Key Reminders
 
